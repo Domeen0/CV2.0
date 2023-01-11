@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dominik's Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <header id="home">
+    <div class="topnav" id="myTopNav">
+        <a href="#home" class="active">Domů</a>
+        <a href="#aboutMe">O mně</a>
+        <a href="#skills">Mé dovednosti</a>
+        <a href="#contact">Kontakt</a>
+        <a href="indexen.html" class="flag"><img src="images/united-kingdom.png" alt="czech"></a>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+  </header>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <img class="top-cloud next" src="images/cloud.png" alt="cloud-img">
+      <h1>Jsem Dominik.</h1>
+      <h2>budoucí web vývojář.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img class="bottom-cloud another" src="images/cloud.png" alt="cloud-img">
+      <img class="mountain" src="images/mountain.png" alt="mountain-img">
+    </div>
+    <section id="hello">
+      <div class="middle-container">
+        <div class="profile">
+          <img id="mephoto" src="images/uniform.jpeg" alt="DL">
+          <h2>Ahoj.</h2>
+          <p class="hello-description">Jsem webový a softwarový vývojář z Prahy v České republice.<br>
+            Mám rád kreativní myšlení, vše okolo počítačů a minulý rok <br>
+            jsem začal svou cestu stát se a full-stack vývojářem.
+        </div>
+    </section>
+    <hr>
+    <section id="aboutMe">
+      <div class="aboutMe">
+        <h2>O mně.</h2>
+        <div class="skill-row">
+          <h3>Vzdělání</h3>
+          <ul>
+            <li><span class="years">2012 - 2016</span> Střední škola multimediálních studií Poděbrady</li>
+            <li><span class="years">2016 - 2017</span> Česká zemědělská univerzita</li>
+          </ul>
+          <p>Na střední škole jsem se poprvé dostal do světa webové vyývojářství a programování.</p>
+          <p>Na univerzitě jsem byl pouze jeden semestr, jelikož jsem si uvědomil, že to není ta cesta, kterou bych se chtěl vydat.</p>
+        </div>
+        <div class="skill-row">
+          <h3>Pracovní zkušenosti</h3>
+          <ul>
+            <li><span class="years">2017 - 2022</span> Armáda České republiky</li>
+          </ul>
+          <p>V armádě jsem byl starší průzkumník specialista v hodnosti četaře.</p>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="skills">
+      <div class="skills">
+        <h2>Mé dovednosti.</h2>
+        <h3>Projekty</h3>
+        <div class="carousel">
+          <span id="item-1"></span>
+          <span id="item-2"></span>
+          <span id="item-3"></span>
+          <span id="item-4"></span>
+          <span id="item-5"></span>
+          <div class="carousel-item item-1">
+            <a href="#item-5" class="arrow-prev arrow"></a>
+            <a href="#item-2" class="arrow-next arrow"></a>
+            <p id="bici">Úkolem tohoto projektu bylo vytvořit <a href="DrumKit/index.html">Bicí soupravu</a>,
+            kde při stisknutí odpovídající klávesy vyjde stejný zvuk, jako z nástroje v bicí soupravě. 
+            Projekt se primárně tvořil v Javascriptu k ujištění mých znalostí v tomto konkrétním jazyce.
+            </p>
+          </div>
+          <div class="carousel-item item-2">
+            <a href="#item-1" class="arrow-prev arrow"></a>
+            <a href="#item-3" class="arrow-next arrow"></a>
+            <p id="tinpes">V tomto projektu bylo úkolem vytvořit imaginární webovou stránku, podobnou seznamce Tinder s tím rozdílem, že tato měla být určená pro psy.
+            Tato <a href="Tindog/index.html">stránka</a> byla vyvíjena primárně za použití knihovny Bootstrap, která je skvělá pro vývojáře svým množstvím funkcí,
+            které můžete použít pro tvorbu stránek a ušetří vám spoustu času, který byste museli strávit programováním. 
+            </p>
+          </div>
+          <div class="carousel-item item-3">
+            <a href="#item-2" class="arrow-prev arrow"></a>
+            <a href="#item-4" class="arrow-next arrow"></a>
+            <p id="simonrika">Slyšeli jste už někdy o hře Simon říká?
+              Tohle je přesně ono. Tahle <a href="SimonSays/index.html">stránka</a> je variací této hry, kterou si můžete zahrát.
+              Hlavním cílem a překážkou nebylo jen vytvořit tuto hru, ale také přijít na to jak napsat algoritmus, který je zodpovědný za zapamatování si
+              uživatelových vstupů a kontrolování kdy uživatel udělá chybu. Projekt byl primárně tvořen v Javascriptu.
+              </p>
+          </div>
+          <div class="carousel-item item-4">
+            <a href="#item-3" class="arrow-prev arrow"></a>
+            <a href="#item-5" class="arrow-next arrow"></a>
+            <p id="monstervrah">Tento <a href="MonsterKiller/index.html">projekt</a> byla velká zábava na tvorbu.
+            Jde o další hru, kde tentokrát musíte porazit monstrum. Uživatel si může zvolit kolik životů on a monstrum bude mít, a za využití útoku, silného útoku,
+            léčení a bonusového života, se musí pokusit porazit monstrum. Jde skoro o čistý Javascript, kromě těch částí kde musíte použít HTML a CSS, a byla to pořádná výzva.
+            </p>
+          </div>
+          <div class="carousel-item item-5">
+            <a href="#item-4" class="arrow-prev arrow"></a>
+            <a href="#item-1" class="arrow-next arrow"></a>
+            <p id="movielistPar">V tomto <a href="MovieList/index.html">projektu</a> bylo úkolem vytvořit filmovou databázi, kam můžete přidat filmy které jste viděli,
+                přidat k nim URL obrázku filmu a vaše hodnocení od 1-5. Šlo o nový způsob jak pracovat s Javascriptem a vyšlo to skvěle.
+            </p>
+          </div>
+        </div>
+        <h3>Dovednosti</h3>
+          <div class="skill-row">
+            <div class="col">
+              <ul class="coding">
+                <li><span class="line html years"></span>HTML</li>
+                <li><span class="line css years"></span>CSS</li>
+                <li><span class="line bstrap years"></span>Bootstrap</li>
+                <li><span class="line javascript years"></span>Javascript</li>
+                <li><span class="line jQuery years"></span>jQuery</li>
+                <li><span class="line nodejs years"></span>Node.Js</li>
+                <li><span class="line cpp years"></span>C++</li>
+                <li><span class="line php years"></span>PHP</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skill-row">
+            <h3>Nenašli jste to co hledáte?</h3>
+            <img class="eye-img" src="images/look.gif" alt="look">
+            <p class="eye-description">Bez obav, kontaktujte mě a hned jak to bude možné, Vám zodpovím věškeré Vaše
+                dotazy.</p>
+          </div>
+      </div>
+    </section>
+    <hr>
+    <section id="contact">
+    <div class="contact-me">
+      <h2>Ozvěte se.</h2>
+      <h3>Přes sociální sítě</h3>
+      <p>Můžete mě také najít na některých platformách sociálních sítí, kromě Twitteru (je na prd).</p>
+      <a class="btn" href="mailto:losot.d@seznam.cz">Kontaktujte mě</a>
+    </div>
+  </section>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.facebook.com/Domssino/"><img src="images/FB.png"
+        style="height:25px;width:25px;"></a>
+    <a class="footer-link" href="https://www.instagram.com/domsino.l/"><img src="images/instagram.png"
+        style="height:25px;width:25px;"></a>
+    <p class="copyright">©2023 Dominik Lošot.</p>
+  </div>
+  <script>
+  function navBar() {
+    let x = document.getElementById("myTopNav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+</body>
+
+</html>

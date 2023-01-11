@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dominik's Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <header id="home">
+    <div class="topnav" id="myTopNav">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">My Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="indexcs.html" class="flag"><img src="images/czech-republic.png" alt="czech"></a>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+  </header>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <img class="top-cloud next" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Dominik.</h1>
+      <h2>a future web developer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img class="bottom-cloud another" src="images/cloud.png" alt="cloud-img">
+      <img class="mountain" src="images/mountain.png" alt="mountain-img">
+    </div>
+    <section id="hello">
+      <div class="middle-container">
+        <div class="profile">
+          <img id="mephoto" src="images/uniform.jpeg" alt="DL">
+          <h2>Hello.</h2>
+          <p class="hello-description">I'm a web and software developer based in Prague, Czech Republic.<br>
+            I love creative thinking, all about computers and last year <br>
+            I started my journey to became a full-stack developer.</p>
+        </div>
+    </section>
+    <hr>
+    <section id="aboutMe">
+      <div class="aboutMe">
+        <h2>About Me.</h2>
+        <div class="skill-row">
+          <h3>Education</h3>
+          <ul>
+            <li><span class="years">2012 - 2016</span> High School of Multimedia Studies in Poděbrady</li>
+            <li><span class="years">2016 - 2017</span> Czech University of Life Sciences Prague</li>
+          </ul>
+          <p>At the High School I've for the first time entered the world of web development and coding.</p>
+          <p>At the University I was only for one semester because I've realized it's not the way, which I wanted to go.</p>
+        </div>
+        <div class="skill-row">
+          <h3>Work Experience</h3>
+          <ul>
+            <li><span class="years">2017 - 2022</span> Army of the Czech Republic</li>
+          </ul>
+          <p>In the army I was Older Obserever Specialist at the rank of sergeant.</p>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="skills">
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <h3>Projects</h3>
+        <div class="carousel">
+          <span id="item-1"></span>
+          <span id="item-2"></span>
+          <span id="item-3"></span>
+          <span id="item-4"></span>
+          <span id="item-5"></span>
+          <div class="carousel-item item-1">
+            <a href="#item-5" class="arrow-prev arrow"></a>
+            <a href="#item-2" class="arrow-next arrow"></a>
+            <p id="drumkitPar">The task in this project was to develop a <a href="DrumKit/index.html">Drum Kit</a>,
+              where you can press declared keys to make a sound like the corresponding instrument in drum kit set.
+              It was mainly develop via JavaScript language to ensure my knowledge of this particular language.
+            </p>
+          </div>
+          <div class="carousel-item item-2">
+            <a href="#item-1" class="arrow-prev arrow"></a>
+            <a href="#item-3" class="arrow-next arrow"></a>
+            <p id="tindogPar">The task in this project was to develop an imaginary website similar to dating site Tinder, 
+              except this had to be for dogs. This <a href="Tindog/index.html">website</a> was developed mainly via Bootstrap Library, which is great for 
+              developers with the amount of features you can use for your website and saves you a lot of time of coding.
+            </p>
+          </div>
+          <div class="carousel-item item-3">
+            <a href="#item-2" class="arrow-prev arrow"></a>
+            <a href="#item-4" class="arrow-next arrow"></a>
+            <p id="simonsaysPar">Did you ever heard of the game Simon Says? 
+              Well, this is it. This <a href="SimonSays/index.html">website</a> game is a variation of Simon Says. 
+              Main goal and strugle here was not just the make this game, 
+              but also figured out how to code an algorithm, which is resposible for remenbering users input a controling when user makes
+              wrong choice. It's primarily made in JavaScript.
+              </p>
+          </div>
+          <div class="carousel-item item-4">
+            <a href="#item-3" class="arrow-prev arrow"></a>
+            <a href="#item-5" class="arrow-next arrow"></a>
+            <p id="monsterkillerPar">This <a href="MonsterKiller/index.html">project</a> was a big fun to make. It's another game, but here you have to slain a monster.
+              User can choose how many live he/she and the monster have and with use of attack, heavy attack, healing and extra life
+              try his/her best to slain the monster.
+              It's almost a pure JavaScript, except those parts, were you have to use HTML and CSS, and it was pretty challenging.
+            </p>
+          </div>
+          <div class="carousel-item item-5">
+            <a href="#item-4" class="arrow-prev arrow"></a>
+            <a href="#item-1" class="arrow-next arrow"></a>
+            <p id="movielistPar">In this <a href="MovieList/index.html">project</a> the main task was to made a database of movie, where you can add whatever movie you saw,
+              add URL to image of the movie and give it a rating 1-5. It was new way how work with JavaScript and it turned out great.
+            </p>
+          </div>
+        </div>
+        <h3>Skills</h3>
+          <div class="skill-row">
+            <div class="col">
+              <ul class="coding">
+                <li><span class="line html years"></span>HTML</li>
+                <li><span class="line css years"></span>CSS</li>
+                <li><span class="line bstrap years"></span>Bootstrap</li>
+                <li><span class="line javascript years"></span>Javascript</li>
+                <li><span class="line jQuery years"></span>jQuery</li>
+                <li><span class="line nodejs years"></span>Node.Js</li>
+                <li><span class="line cpp years"></span>C++</li>
+                <li><span class="line php years"></span>PHP</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skill-row">
+            <h3>Didn't you find what you are looking for?</h3>
+            <img class="eye-img" src="images/look.gif" alt="look">
+            <p class="eye-description">Don't worry, contact me and as soon as possible I will answer all of your
+              questions.</p>
+          </div>
+      </div>
+    </section>
+    <hr>
+    <section id="contact">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>With my social media</h3>
+      <p>You can also find me on some social media platforms, except Twitter (it sucks).</p>
+      <a class="btn" href="mailto:losot.d@seznam.cz">CONTACT ME</a>
+    </div>
+  </section>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.facebook.com/Domssino/"><img src="images/FB.png"
+        style="height:25px;width:25px;"></a>
+    <a class="footer-link" href="https://www.instagram.com/domsino.l/"><img src="images/instagram.png"
+        style="height:25px;width:25px;"></a>
+    <p class="copyright">©2023 Dominik Lošot.</p>
+  </div>
+  <script>
+  function navBar() {
+    let x = document.getElementById("myTopNav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+</body>
+
+</html>
